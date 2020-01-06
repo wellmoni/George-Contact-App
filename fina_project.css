@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    color: burlywood;
+    font-family: cursive;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: inherit;   
+    width: 800px;
+    margin: auto;
+    background:url("table.jpg");
+    
+}
+
+th,td,table{
+
+    border: solid 2px black;
+    text-align: center;
+    font:white;
+}
+
+th{
+    background-color: aqua;
+}
+
+tr:hover{
+    background-color: darkturquoise;
+}
+table:hover{
+
+    background-color: lightblue;
+}
+
+input[type=text], select {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-sizing: border-box
+}
+.edit_btn{
+border-radius: 50%;
+
+}
+.del_btn{
+    border-radius: 50%;
+}
+
+
+
